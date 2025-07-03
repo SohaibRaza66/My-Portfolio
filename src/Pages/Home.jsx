@@ -110,7 +110,7 @@ const Home = () => {
       {/* Hero Section */}
       <section
         id="home"
-        className="min-h-screen flex items-center justify-between px-6 max-w-6xl mx-auto"
+        className="min-h-screen sm:flex items-center sm:justify-between px-6 max-w-6xl mx-auto grid place-content-center"
       >
         <motion.div 
           className="flex-1 space-y-6"
@@ -173,7 +173,7 @@ const Home = () => {
                 ease: "easeInOut"
               }}
             ></motion.div>
-            <div className="absolute inset-0 flex items-center justify-center">
+            <div className="absolute inset-0 sm:flex items-center justify-center grid place-items-center">
               <motion.div 
                 className="w-64 h-64 rounded-lg flex items-center justify-center"
                 whileHover={{ scale: 1.05 }}
