@@ -493,7 +493,7 @@ const Home = () => {
           variants={fadeIn}
           viewport={{ once: true }}
         >
-          <span className="text-green-400">#</span>contacts
+          <span className="text-green-400">#</span>Contact Me
         </motion.h2>
 
         <motion.div 
