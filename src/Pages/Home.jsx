@@ -12,7 +12,7 @@ import {
 } from "lucide-react";
 import { FaWhatsapp } from "react-icons/fa";
 import { motion } from "framer-motion";
-import Img from "../assets/image.jpg";
+// import Img from "Image.jpg";
 
 const Home = () => {
   const [typedText, setTypedText] = useState("");
@@ -179,7 +179,7 @@ const Home = () => {
                 whileHover={{ scale: 1.05 }}
               >
                 <img
-                  src={Img}
+                  src={"Image.jpg"}
                   alt=""
                   className="w-full h-full object-cover rounded-lg bg-gray-700 shadow-lg shadow-green-600 transition-shadow duration-300"
                 />
@@ -450,7 +450,7 @@ const Home = () => {
                 whileHover={{ scale: 1.03 }}
               >
                 <img
-                  src={Img}
+                  src={"Image.jpg"}
                   alt="Project Preview"
                   className="w-full h-full object-cover rounded-lg bg-gray-700 shadow-lg shadow-green-600 transition-shadow duration-300"
                 />
