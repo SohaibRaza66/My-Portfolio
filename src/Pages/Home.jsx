@@ -110,7 +110,7 @@ const Home = () => {
       {/* Hero Section */}
       <section
         id="home"
-        className="min-h-screen sm:flex items-center sm:justify-between px-6 max-w-6xl mx-auto grid place-content-center"
+        className="min-h-screen sm:flex items-center sm:justify-between max-w-6xl px-6 mx-auto grid place-content-center"
       >
         <motion.div 
           className="flex-1 space-y-6"
